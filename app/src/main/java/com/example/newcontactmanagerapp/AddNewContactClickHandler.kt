@@ -17,6 +17,8 @@ class AddNewContactClickHandler(
             val newContact = Contacts(name = contact.name, email = contact.email, phone = contact.phone, address = contact.address)
             myViewModel.addNewContact(newContact)
             context.startActivity(Intent(context, MainActivity::class.java))
+            (context as AddNewContactActivity).finish()
+
         }
     }
 }
