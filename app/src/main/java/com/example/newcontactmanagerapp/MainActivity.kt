@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
                     .setMessage("Do you really want to delete this contact?")
                     .setPositiveButton("Yes") { _, _ ->
                         viewModel.deleteContact(contact)
+                        Toast.makeText(this@MainActivity,"Contact Deleted Successfully",Toast.LENGTH_SHORT).show()
                     }
                     .setNegativeButton("No") { dialog, _ ->
                         dialog.dismiss()
