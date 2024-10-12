@@ -16,6 +16,7 @@ class AddNewContactClickHandler(
         } else {
             val newContact = Contacts(name = contact.name, email = contact.email, phone = contact.phone, address = contact.address)
             myViewModel.addNewContact(newContact)
+            Toast.makeText(context,"Contact Added Successfully",Toast.LENGTH_SHORT).show()
             context.startActivity(Intent(context, MainActivity::class.java))
             (context as AddNewContactActivity).finish()
 
