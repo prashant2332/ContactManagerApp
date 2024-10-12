@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contact Manager</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="enter_the_email">Enter the email</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="update_contactb">Update Contact</string>
+</resources>
